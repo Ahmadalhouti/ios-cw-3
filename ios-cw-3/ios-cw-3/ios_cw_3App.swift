@@ -12,6 +12,19 @@ struct ios_cw_3App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
+            HStack{
+               Image("mutd")
+               Image("ro")
+            }
+            HStack{
+               Image("do")
+               Image("po")
+            }
+               Image("bo")
+              
         }
     }
 }
+ 
+
